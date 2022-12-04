@@ -5,6 +5,7 @@
     el.addEventListener("gps-camera-update-position", e => {
         if(!testEntitiesAdded) {
             alert(`Gooooot first GPS position: lon ${e.detail.position.longitude} lat ${e.detail.position.latitude}`);
+            document.getElementById('long').value = ${e.detail.position.longitude;
             // Add four boxes to the north (red), south (yellow), west (blue)
             // and east (red) of the initial GPS position
             const properties = [{
